@@ -37,6 +37,7 @@ form {
     max-width: 640px; /* Define a largura máxima do formulário como 640px */
     width: 100%; /* O formulário ocupa 100% da largura disponível */
     justify-content: space-between; /* Distribui os itens do formulário com espaço entre eles */
+    gap: 10px;
 }
 
 form input {
@@ -55,6 +56,7 @@ form button {
     border: none; /* Remove a borda do botão */
     cursor: pointer; /* Muda o cursor para um ponteiro quando o botão é clicado */
     padding: 8px; /* Adiciona um padding interno de 8px ao botão */
+    flex-shrink: 0;
 }
 
 table {
@@ -73,24 +75,4 @@ table td {
     text-align: center; /* Alinha o texto das células da tabela ao centro */
     font-size: 18px; /* Define o tamanho da fonte das células da tabela como 18px */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adiciona uma borda inferior com opacidade para as células da tabela */
-}
-
-table td img {
-    height: 30px; /* Define a altura das imagens nas células da tabela como 30px */
-}
-
-.resultado {
-    padding: 8px; /* Adiciona padding interno de 8px */
-    font-weight: bold; /* Define o peso da fonte como negrito */
-    color: #fff; /* Define a cor do texto como branco */
-    background-color: #000; /* Define o fundo da classe resultado como preto */
-    border-radius: 3px; /* Adiciona bordas arredondadas com raio de 3px */
-}
-
-.aprovado {
-    background-color: #009432; /* Define o fundo das atividades aprovadas como verde */
-}
-
-.reprovado {
-    background-color: red; /* Define o fundo das atividades reprovadas como vermelho */
 }
