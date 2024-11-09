@@ -1,0 +1,96 @@
+* {
+    margin: 0; /* Remove a margem de todos os elementos */
+    padding: 0; /* Remove o padding de todos os elementos */
+    box-sizing: border-box; /* Garante que o padding e a borda não afetem a largura e altura dos elementos */
+    font-family: 'Roboto', 'sans-serif'; /* Define a fonte padrão como Roboto e, se não disponível, a fonte sans-serif */
+}
+
+body {
+    background-color: #E7E7E7; /* Define a cor de fundo do corpo da página */
+    padding-top: 100px; /* Adiciona um espaçamento superior de 100px para dar espaço ao conteúdo */
+}
+
+header {
+    display: flex; /* Define o cabeçalho como um container flexível */
+    align-items: center; /* Alinha os itens (imagem e título) verticalmente no centro */
+    margin-bottom: 40px; /* Adiciona uma margem inferior de 40px no cabeçalho */
+}
+
+header img {
+    height: 36px; /* Define a altura da imagem no cabeçalho */
+    margin-right: 16px; /* Adiciona uma margem à direita da imagem */
+}
+
+header h1 {
+    font-size: 40px; /* Define o tamanho da fonte do título como 40px */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+.container {
+    max-width: 960px; /* Define a largura máxima do contêiner como 960px */
+    width: 100%; /* A largura do contêiner ocupa 100% da largura disponível */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+form {
+    display: flex; /* Define o formulário como um container flexível */
+    max-width: 640px; /* Define a largura máxima do formulário como 640px */
+    width: 100%; /* O formulário ocupa 100% da largura disponível */
+    justify-content: space-between; /* Distribui os itens do formulário com espaço entre eles */
+}
+
+form input {
+    font-size: 24px; /* Define o tamanho da fonte dos campos de entrada como 24px */
+    background-color: #fff; /* Define a cor de fundo dos campos de entrada como branco */
+    border: none; /* Remove a borda dos campos de entrada */
+    border-bottom: 2px solid #000; /* Adiciona uma borda inferior preta de 2px nos campos de entrada */
+    padding: 8px; /* Adiciona um padding interno de 8px aos campos de entrada */
+}
+
+form button {
+    background-color: #009432; /* Define a cor de fundo do botão como verde */
+    font-size: 24px; /* Define o tamanho da fonte do botão como 24px */
+    font-weight: bold; /* Define o peso da fonte do botão como negrito */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando o botão é clicado */
+    padding: 8px; /* Adiciona um padding interno de 8px ao botão */
+}
+
+table {
+    width: 100%; /* A tabela ocupa 100% da largura disponível */
+}
+
+table th {
+    border-bottom: 2px solid #000; /* Adiciona uma borda inferior preta de 2px às células do cabeçalho */
+    padding: 16px; /* Adiciona um padding de 16px nas células do cabeçalho */
+    font-size: 24px; /* Define o tamanho da fonte das células do cabeçalho como 24px */
+    font-weight: bold; /* Define o peso da fonte do cabeçalho como negrito */
+}
+
+table td {
+    padding: 16px 0; /* Adiciona padding vertical de 16px e padding horizontal de 0 às células da tabela */
+    text-align: center; /* Alinha o texto das células da tabela ao centro */
+    font-size: 18px; /* Define o tamanho da fonte das células da tabela como 18px */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adiciona uma borda inferior com opacidade para as células da tabela */
+}
+
+table td img {
+    height: 30px; /* Define a altura das imagens nas células da tabela como 30px */
+}
+
+.resultado {
+    padding: 8px; /* Adiciona padding interno de 8px */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: #fff; /* Define a cor do texto como branco */
+    background-color: #000; /* Define o fundo da classe resultado como preto */
+    border-radius: 3px; /* Adiciona bordas arredondadas com raio de 3px */
+}
+
+.aprovado {
+    background-color: #009432; /* Define o fundo das atividades aprovadas como verde */
+}
+
+.reprovado {
+    background-color: red; /* Define o fundo das atividades reprovadas como vermelho */
+}
