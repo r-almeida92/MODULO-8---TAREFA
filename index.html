@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <div class="container">
@@ -21,24 +21,17 @@
             <input type="number" id="numero-telefone" required placeholder="Número"/>
             <button type="submit">Adicionar Contato</button>
         </form>
-        <table cellspacing="0"> <!-- Tabela para exibir as atividades, notas e resultado -->
-            <thead> <!-- Cabeçalho da tabela -->
+        <table cellspacing="0">
+            <thead>
                 <tr>
-                    <th>Nome da Atividade</th> <!-- Coluna para o nome da atividade -->
-                    <th>Nota da Atividade</th> <!-- Coluna para a nota da atividade -->
-                    <th>Aprovado?</th> <!-- Coluna para mostrar se a atividade foi aprovada ou reprovada -->
+                    <th>Nome</th>
+                    <th>DDD</th>
+                    <th>Número</th>
                 </tr>
             </thead>
-            <tbody> <!-- Corpo da tabela onde as linhas de dados serão inseridas dinamicamente -->
+            <tbody>
             </tbody>
-            <tfoot> <!-- Rodapé da tabela, onde a média final será exibida -->
-                <tr>
-                    <td>Média Final</td> <!-- Título para a linha da média final -->
-                    <td id="media-final-valor">---</td> <!-- Valor da média final, inicialmente vazio -->
-                    <td id="media-final-resultado">---</td> <!-- Resultado final, inicialmente vazio -->
-                </tr>
-            </tfoot>
-        </table>
+            </table>
     </div>
     <script src="./index.js"></script> <!-- Link para o arquivo JavaScript, onde a lógica da página está definida -->
 </body>
